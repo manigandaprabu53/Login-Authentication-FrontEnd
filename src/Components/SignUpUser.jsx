@@ -22,7 +22,7 @@ function SignUpUser() {
 
       let response = await api.post(ApiRoutes.SignUpUser.path, data, {authenticate: ApiRoutes.SignUpUser.authenticate})
       toast.success(response.message);
-      navigate('/login')
+      navigate('/loginUser')
       
     } catch (error) {
       console.log(error)

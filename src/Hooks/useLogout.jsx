@@ -7,7 +7,7 @@ function useLogout() {
 
   return ()=>{
     toast.success('Logout Successfull');
-    navigate('/login')
+    navigate('/loginUser')
   }
 }
 
