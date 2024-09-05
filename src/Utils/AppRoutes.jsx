@@ -1,5 +1,5 @@
 import { Navigate } from "react-router-dom";
-import SignUpUser from "../Components/signUpUser";
+import SignUpUser from "../Components/SignUpUser";
 import LoginUser from "../Components/LoginUser";
 import ForgotPassword from "../Components/ForgotPassword";
 import ResetPassword from "../Components/ResetPassword";
