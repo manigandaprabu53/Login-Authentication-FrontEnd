@@ -23,7 +23,7 @@ function ResetPassword() {
         data[key] = value
       }
       console.log(typeof sessionStorage.getItem('token'))
-      let response = await axios.post(`http://localhost:8000/users/resetPassword/${token}`, data)
+      let response = await axios.post(`https://login-authentication-backend-5ft6.onrender.com/users/resetPassword/${token}`, data)
       toast.success(response.data.message);
       console.log("Line Number: "+sessionStorage.getItem('token'))
       sessionStorage.clear();
